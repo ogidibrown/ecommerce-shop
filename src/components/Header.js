@@ -25,7 +25,7 @@ const Header = () => {
   })
 
   return (
-    <header className={`${isActive? ' bg-[#c4ada0]':'bg-none py-2'} fixed w-full z-10 transition-all`}>
+    <header className={`${isActive? ' bg-[#c4ada0]':'bg-none py-4'} fixed w-full z-10 transition-all`}>
       <div className="container mx-auto flex items-center justify-between
           h-full">
         <div to={'/'}>
